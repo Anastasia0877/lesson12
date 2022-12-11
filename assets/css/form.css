@@ -1,0 +1,67 @@
+.container-first-form form{
+    max-width: 400px;
+    display: flex;
+    flex-direction: column;
+    /* background-color: #fff; */
+    padding: 50px;
+    border-radius: 30px;
+    margin: 0 auto;
+    background:url('../img/parallax.png') ;
+    background-attachment: fixed;
+}
+.container-first-form form label{
+    font-size: 12px;
+    margin-bottom: 10px;
+    color: #fff;
+}
+.form-input{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 20px;
+}
+.form-input input{
+   background: none;
+   color: #fff;
+}
+.form-input [type="text"]{
+    margin-bottom: 30px;
+}
+.form-input input:focus-visible{
+    outline: 1px solid #fff;
+    box-shadow: 0 0 10px #fff;
+    border-radius: 10px;
+}
+.container-first-form input{
+    border: none;
+    border-bottom: 1px solid #fff;
+}
+.form-btn{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+.form-btn input{
+    background-color: #343D5E;
+    color: #fff;
+    border:none;
+    padding: 10px;
+    border-radius: 30px;
+    width: 130px;
+    transition: 0.5s ease-out;
+}
+.form-btn input:hover{
+    background-color: #fff;
+    color: #343D5E;
+    border: 1px solid #343D5E;
+    transition: 0.5s ease-in;
+}
+.form-btn input:active{
+    background-color: hsla(245, 100%, 7%, 0.3);;
+    color: #000;
+    transition: 0.5s ease-in;
+}
+.form-btn input:focus{
+    box-shadow: 0 0 10px #000;
+    transition: 0.5s ease-in;
+}
+
