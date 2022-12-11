@@ -1,0 +1,104 @@
+
+
+
+.fonts{
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 24px;
+}
+.raleway h1{
+    font-size: var(--font-size-h1);
+    font-family: 'Raleway', sans-serif;
+    color: var(--color-bold) ;
+}
+.dancing-script h1{
+    font-size: var(--font-size-h1);
+    font-family: 'Dancing Script', cursive;
+    color:#BF360C;
+}
+.caveat h1{
+    font-size: var(--font-size-h1);
+    font-family: 'Caveat', cursive;
+    color: #004D40;
+}
+.raleway p {
+    padding-top: var(--padding-top-p);
+    font-family: 'Raleway', sans-serif;
+}
+.dancing-script p{
+    padding-top: var(--padding-top-p);
+    font-family: 'Dancing Script', cursive;
+}
+.caveat p{
+    padding-top: var(--padding-top-p);
+    font-family: 'Caveat', cursive;
+}
+.black {
+    font-weight: 900;
+    color:#B71C1C;
+}
+.bold {
+    font-weight: 700;
+    color: var(--color-bold);
+}
+.extrabold {
+    font-weight: 800;
+    color: #AD1457;
+}
+.extralight {
+    font-weight: 200;
+    color: #80DEEA;
+
+}
+.light {
+    font-weight: 300;
+    color: #4FC3F7;
+}
+.medium {
+    font-weight: var(--font-weight-medium);
+    color: #3F51B5;
+}
+.regular {
+    font-weight: 400;
+    color: #42A5F5;
+}
+.semibold {
+    font-weight: var(--font-weight-semibold);
+    color: #5E35B1;
+}
+.thin {
+    font-weight: 100;
+    color: #B2DFDB;
+}
+.d_bold {
+    font-weight: 700;
+    color: #FFA000;
+}
+.d_semibold {
+    font-weight: var(--font-weight-semibold);
+    color: #FDD835;
+}
+.d_medium {
+    font-weight: var(--font-weight-medium);
+    color: #CDDC39;
+}
+.d_regular {
+    font-weight: 400;
+    color: #9CCC65;
+}
+.c_bold {
+    font-weight: 700;
+    color: #00796B;
+}
+.c_semibold {
+    font-weight: var(--font-weight-semibold);
+    color: #00897B;
+}
+.c_medium {
+    font-weight: var(--font-weight-medium);
+    color: #009688;
+}
+.c_regular {
+    font-weight: 400;
+    color: #26A69A;
+}

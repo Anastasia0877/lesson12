@@ -1,0 +1,584 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link
+            rel="apple-touch-icon"
+            sizes="180x180"
+            href="./assets/favicon/apple-touch-icon.png">
+        <link
+            rel="icon"
+            type="image/png"
+            sizes="32x32"
+            href="./assets/favicon/favicon-32x32.png">
+        <link
+            rel="icon"
+            type="image/png"
+            sizes="16x16"
+            href="./assets/favicon/favicon-16x16.png">
+        <link rel="manifest" href="/site.webmanifest">
+        <link rel="stylesheet" href="./assets/css/bootstrap.css">
+        <link rel="stylesheet" href="./assets/css/bootstrap-style.css">
+        <title>Bootstrap</title>
+    </head>
+    <body>
+        <header>
+            <nav class="navbar navbar-expand-lg navbar-light ">
+                <div class="container-fluid">
+                    <a href="bootstrap.html">
+                        <img class="logo" src="./assets/img/logo.png" alt="LOGO">
+                    </a>
+                    <button
+                        class="navbar-toggler"
+                        type="button"
+                        data-bs-toggle="collapse"
+                        data-bs-target="#navbarNavDropdown"
+                        aria-controls="navbarNavDropdown"
+                        aria-expanded="false"
+                        aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                        <ul class="navbar-nav">
+                            <li class="nav-item">
+                                <a class="nav-link active" aria-current="page" href="bootstrap.html">Main</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="products.html">Products</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="faq.html">FAQ & Tabs</a>
+                            </li>
+                            
+                            <li class="nav-item dropdown">
+                                <a
+                                    class="nav-link dropdown-toggle"
+                                    href="#"
+                                    id="navbarDropdownMenuLink"
+                                    role="button"
+                                    data-bs-toggle="dropdown"
+                                    aria-expanded="false">
+                                    Materials
+                                </a>
+                                <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                                    <li>
+                                        <a class="dropdown-item" href="index.html">Home</a>
+                                    </li>
+                                    <li>
+                                        <a class="dropdown-item" href="table.html">Table</a>
+                                    </li>
+                                    <li>
+                                        <a class="dropdown-item" href="flexbox.html">Flex-box</a>
+                                    </li>
+                                    <li>
+                                        <a class="dropdown-item" href="position.html">Position</a>
+                                    </li>
+                                    <li>
+                                        <a class="dropdown-item" href="fonts.html">Fonts</a>
+                                    </li>
+                                    <li>
+                                        <a class="dropdown-item" href="main-tags.html">Main tags</a>
+                                    </li>
+                                    <li>
+                                        <a class="dropdown-item" href="nth-child.html">Nth-child</a>
+                                    </li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </nav>
+        </header>
+        <main>
+            <h1 class="page-title">Bootstrap 5</h1>
+
+            <div class="container">
+                <div class="row">
+                    <div class="col-xl-3 col-lg-4">
+                        <h3>Фільтр</h3>
+                        <div class="filters">
+                            <div class="price">
+                                <div class="price__range">
+                                    <label for="customRange1" class="filter__subtitle form-label">Ціна</label>
+                                    <input type="range" class="form-range" id="customRange1">
+                                </div>
+                            </div>
+                            <h4 class="filter__subtitle">Колір</h4>
+                            <div class="parameter colors">
+                                <div class="form-check">
+                                    <input
+                                        class="form-check-input"
+                                        type="checkbox"
+                                        value=""
+                                        id="flexCheckChecked"
+                                        checked="checked">
+                                    <label class="form-check-label" for="flexCheckChecked">
+                                        Black
+                                    </label>
+                                </div>
+                                <div class="form-check">
+                                    <input
+                                        class="form-check-input"
+                                        type="checkbox"
+                                        value=""
+                                        id="flexCheckChecked"
+                                        checked="checked">
+                                    <label class="form-check-label" for="flexCheckChecked">
+                                        Blue
+                                    </label>
+                                </div>
+                                <div class="form-check">
+                                    <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                                    <label class="form-check-label" for="flexCheckDefault">
+                                        Green
+                                    </label>
+                                </div>
+                                <div class="form-check">
+                                    <input
+                                        class="form-check-input"
+                                        type="checkbox"
+                                        value=""
+                                        id="flexCheckChecked"
+                                        checked="checked">
+                                    <label class="form-check-label" for="flexCheckChecked">
+                                        Grey
+                                    </label>
+                                </div>
+                                <div class="form-check">
+                                    <input
+                                        class="form-check-input"
+                                        type="checkbox"
+                                        value=""
+                                        id="flexCheckChecked"
+                                        checked="checked">
+                                    <label class="form-check-label" for="flexCheckChecked">
+                                        Deep Purple
+                                    </label>
+                                </div>
+                                <div class="form-check">
+                                    <input
+                                        class="form-check-input"
+                                        type="checkbox"
+                                        value=""
+                                        id="flexCheckChecked"
+                                        checked="checked">
+                                    <label class="form-check-label" for="flexCheckChecked">
+                                        Gold
+                                    </label>
+                                </div>
+                                <div class="form-check">
+                                    <input
+                                        class="form-check-input"
+                                        type="checkbox"
+                                        value=""
+                                        id="flexCheckChecked"
+                                        checked="checked">
+                                    <label class="form-check-label" for="flexCheckChecked">
+                                        Purle
+                                    </label>
+                                </div>
+                                <div class="form-check">
+                                    <input
+                                        class="form-check-input"
+                                        type="checkbox"
+                                        value=""
+                                        id="flexCheckChecked"
+                                        checked="checked">
+                                    <label class="form-check-label" for="flexCheckChecked">
+                                        Pink
+                                    </label>
+                                </div>
+                                <div class="form-check">
+                                    <input
+                                        class="form-check-input"
+                                        type="checkbox"
+                                        value=""
+                                        id="flexCheckChecked"
+                                        checked="checked">
+                                    <label class="form-check-label" for="flexCheckChecked">
+                                        Silver
+                                    </label>
+                                </div>
+                                <div class="form-check">
+                                    <input
+                                        class="form-check-input"
+                                        type="checkbox"
+                                        value=""
+                                        id="flexCheckChecked"
+                                        checked="checked">
+                                    <label class="form-check-label" for="flexCheckChecked">
+                                        Yellow
+                                    </label>
+                                </div>
+                            </div>
+                            <h4 class="filter__subtitle">Пам'ять</h4>
+                            <div class="parameter memorys">
+                                <div class="form-check">
+                                    <input
+                                        class="form-check-input"
+                                        type="checkbox"
+                                        value=""
+                                        id="flexCheckChecked"
+                                        checked="checked">
+                                    <label class="form-check-label" for="flexCheckChecked">
+                                        64GB
+                                    </label>
+                                </div>
+                                <div class="form-check">
+                                    <input
+                                        class="form-check-input"
+                                        type="checkbox"
+                                        value=""
+                                        id="flexCheckChecked"
+                                        checked="checked">
+                                    <label class="form-check-label" for="flexCheckChecked">
+                                        128GB
+                                    </label>
+                                </div>
+                                <div class="form-check">
+                                    <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                                    <label class="form-check-label" for="flexCheckDefault">
+                                        256GB
+                                    </label>
+                                </div>
+                                <div class="form-check">
+                                    <input
+                                        class="form-check-input"
+                                        type="checkbox"
+                                        value=""
+                                        id="flexCheckChecked"
+                                        checked="checked">
+                                    <label class="form-check-label" for="flexCheckChecked">
+                                        512GB
+                                    </label>
+                                </div>
+                                <div class="form-check">
+                                    <input
+                                        class="form-check-input"
+                                        type="checkbox"
+                                        value=""
+                                        id="flexCheckChecked"
+                                        checked="checked">
+                                    <label class="form-check-label" for="flexCheckChecked">
+                                        1TB
+                                    </label>
+                                </div>
+                            </div>
+                            <h4 class="filter__subtitle">Модель</h4>
+                            <div class="parameter models">
+                                <div class="form-check">
+                                    <input
+                                        class="form-check-input"
+                                        type="checkbox"
+                                        value=""
+                                        id="flexCheckChecked"
+                                        checked="checked">
+                                    <label class="form-check-label" for="flexCheckChecked">
+                                        IPhone 14 Pro Max
+                                    </label>
+                                </div>
+                                <div class="form-check">
+                                    <input
+                                        class="form-check-input"
+                                        type="checkbox"
+                                        value=""
+                                        id="flexCheckChecked"
+                                        checked="checked">
+                                    <label class="form-check-label" for="flexCheckChecked">
+                                        IPhone 14 Plus
+                                    </label>
+                                </div>
+                                <div class="form-check">
+                                    <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                                    <label class="form-check-label" for="flexCheckDefault">
+                                        IPhone 13 Pro Max
+                                    </label>
+                                </div>
+                                <div class="form-check">
+                                    <input
+                                        class="form-check-input"
+                                        type="checkbox"
+                                        value=""
+                                        id="flexCheckChecked"
+                                        checked="checked">
+                                    <label class="form-check-label" for="flexCheckChecked">
+                                        IPhone 13
+                                    </label>
+                                </div>
+                                <div class="form-check">
+                                    <input
+                                        class="form-check-input"
+                                        type="checkbox"
+                                        value=""
+                                        id="flexCheckChecked"
+                                        checked="checked">
+                                    <label class="form-check-label" for="flexCheckChecked">
+                                        IPhone 12
+                                    </label>
+                                </div>
+                                <div class="form-check">
+                                    <input
+                                        class="form-check-input"
+                                        type="checkbox"
+                                        value=""
+                                        id="flexCheckChecked"
+                                        checked="checked">
+                                    <label class="form-check-label" for="flexCheckChecked">
+                                        IPhone 11
+                                    </label>
+                                </div>
+                            </div>
+                            <div class="container_btn">
+                                <button type="button" class="filters__btn btn">Застосувати</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-xl-9 col-lg-8">
+                        <div class="row row-ip">
+                            <div class="col-xl-4 col-lg-4 col-md-6 col-sm-12 col-ip  my-3">
+                                <div class="col-img"><img src="./assets/img/ip14promaxgr.png" alt=""/></div>
+                                <h4 class="col-title">Apple IPhone 14 Pro Max 128GB Grey</h4>
+                                <p>Дисплей Super Retina XDR • Дисплей OLED, на всю передню панель, діагональ 6,7
+                                    дюйми • 2796×1290 пікселів, 460 пікселів на дюйм • Технологія ProMotion із
+                                    адаптивною частотою оновлення до 120 Гц
+                                </p>
+                                <div class="catalog_buttons">
+                                    <button type="button" class="catalog_btn btn-bag btn">Додати в кошик</button>
+                                    <button type="button" class="catalog_btn btn">Докладніше</button>
+                                </div>
+                            </div>
+                            <div class="col-xl-4 col-lg-4 col-md-6 col-sm-12 col-ip  my-3">
+                                <div class="col-img">
+                                    <img src="./assets/img/ip14promaxgold.png" alt=""></div>
+                                <h4 class="col-title">Apple IPhone 14 Pro Max 128GB Gold</h4>
+                                <p>Дисплей Super Retina XDR • Дисплей OLED, на всю передню панель, діагональ 6,7
+                                    дюйми • 2796×1290 пікселів, 460 пікселів на дюйм • Технологія ProMotion із
+                                    адаптивною частотою оновлення до 120 Гц
+                                </p>
+                                <div class="catalog_buttons">
+                                    <button type="button" class="catalog_btn btn-bag btn">Додати в кошик</button>
+                                    <button type="button" class="catalog_btn btn">Докладніше</button>
+                                </div>
+                            </div>
+                            <div class="col-xl-4 col-lg-4 col-md-6 col-sm-12 col-ip  my-3">
+                                <div class="col-img">
+                                    <img src="./assets/img/ip14promaxpurple.png" alt=""></div>
+                                <h4 class="col-title">Apple IPhone 14 Pro Max 128GB DeepPur</h4>
+                                <p>Дисплей Super Retina XDR • Дисплей OLED, на всю передню панель, діагональ 6,7
+                                    дюйми • 2796×1290 пікселів, 460 пікселів на дюйм • Технологія ProMotion із
+                                    адаптивною частотою оновлення до 120 Гц
+                                </p>
+                                <div class="catalog_buttons">
+                                    <button type="button" class="catalog_btn btn-bag btn">Додати в кошик</button>
+                                    <button type="button" class="catalog_btn btn">Докладніше</button>
+                                </div>
+                            </div>
+                            <div class="col-xl-4 col-lg-4 col-md-6 col-sm-12 col-ip  my-3">
+                                <div class="col-img">
+                                    <img src="./assets/img/ip14plusred.png" alt=""></div>
+                                <h4 class="col-title">Apple IPhone 14 Plus 128GB Red</h4>
+                                <p>• Дисплей Super Retina XDR • Дисплей OLED, на всю передню панель, діагональ
+                                    6,7 дюйми • 2778x1284 пікселів, 458 пікселів на дюйм • Підтримка HDR •
+                                    Технологія True Tone • Широке охоплення кольорів (P3)
+                                </p>
+                                <div class="catalog_buttons">
+                                    <button type="button" class="catalog_btn btn-bag btn">Додати в кошик</button>
+                                    <button type="button" class="catalog_btn btn">Докладніше</button>
+                                </div>
+                            </div>
+                            <div class="col-xl-4 col-lg-4 col-md-6 col-sm-12 col-ip my-3">
+                                <div class="col-img">
+                                    <img src="./assets/img/ip14plusblue.png" alt=""></div>
+                                <h4 class="col-title">Apple IPhone 14 Plus 128GB Blue</h4>
+                                <p>• Дисплей Super Retina XDR • Дисплей OLED, на всю передню панель, діагональ
+                                    6,7 дюйми • 2778x1284 пікселів, 458 пікселів на дюйм • Підтримка HDR •
+                                    Технологія True Tone • Широке охоплення кольорів (P3)
+                                </p>
+                                <div class="catalog_buttons">
+                                    <button type="button" class="catalog_btn btn-bag btn">Додати в кошик</button>
+                                    <button type="button" class="catalog_btn btn">Докладніше</button>
+                                </div>
+                            </div>
+                            <div class="col-xl-4 col-lg-4 col-md-6 col-sm-12 col-ip my-3">
+                                <div class="col-img">
+                                    <img src="./assets/img/ip14plusmidnight.png" alt=""></div>
+                                <h4 class="col-title">Apple IPhone 14 Plus 128GB Midni</h4>
+                                <p>• Дисплей Super Retina XDR • Дисплей OLED, на всю передню панель, діагональ
+                                    6,7 дюйми • 2778x1284 пікселів, 458 пікселів на дюйм • Підтримка HDR •
+                                    Технологія True Tone • Широке охоплення кольорів (P3)
+                                </p>
+                                <div class="catalog_buttons">
+                                    <button type="button" class="catalog_btn btn-bag btn">Додати в кошик</button>
+                                    <button type="button" class="catalog_btn btn">Докладніше</button>
+                                </div>
+                            </div>
+                        
+                            <div class="col-xl-4 col-lg-4 col-md-6 col-sm-12 col-ip my-3">
+                                <div class="col-img"><img src="./assets/img/ip13promaxgreen.png" alt=""></div>
+                                <h4 class="col-title">Apple IPhone 13 Pro Max 128GB Green</h4>
+                                <p>• Дисплей Super Retina XDR з технологією ProMotion • Дисплей OLED, на всю
+                                    передню панель, діагональ 6,7 дюйма • 2778 × 1 284 пікселя, • 458 пікселів на
+                                    дюйм • Технологія ProMotion з адаптивною частотою оновлення до 120 Гц
+                                </p>
+                                <div class="catalog_buttons">
+                                    <button type="button" class="catalog_btn btn-bag btn">Додати в кошик</button>
+                                    <button type="button" class="catalog_btn btn">Докладніше</button>
+                                </div>
+                            </div>
+                            <div class="col-xl-4 col-lg-4 col-md-6 col-sm-12 col-ip my-3">
+                                <div class="col-img"><img src="./assets/img/ip13promaxsilver.png" alt=""></div>
+                                <h4 class="col-title">Apple IPhone 13 Pro Max 128GB Silver</h4>
+                                <p>• Дисплей Super Retina XDR з технологією ProMotion • Дисплей OLED, на всю
+                                    передню панель, діагональ 6,7 дюйма • 2778 × 1 284 пікселя, • 458 пікселів на
+                                    дюйм • Технологія ProMotion з адаптивною частотою оновлення до 120 Гц
+                                </p>
+                                <div class="catalog_buttons">
+                                    <button type="button" class="catalog_btn btn-bag btn">Додати в кошик</button>
+                                    <button type="button" class="catalog_btn btn">Докладніше</button>
+                                </div>
+                            </div>
+                            <div class="col-xl-4 col-lg-4 col-md-6 col-sm-12 col-ip my-3">
+                                <div class="col-img"><img src="./assets/img/ip13promaxgr.png" alt=""></div>
+                                <h4 class="col-title">Apple IPhone 13 Pro Max 128GB Grey</h4>
+                                <p>• Дисплей Super Retina XDR з технологією ProMotion • Дисплей OLED, на всю
+                                    передню панель, діагональ 6,7 дюйма • 2778 × 1 284 пікселя, • 458 пікселів на
+                                    дюйм • Технологія ProMotion з адаптивною частотою оновлення до 120 Гц
+                                </p>
+                                <div class="catalog_buttons">
+                                    <button type="button" class="catalog_btn btn-bag btn">Додати в кошик</button>
+                                    <button type="button" class="catalog_btn btn">Докладніше</button>
+                                </div>
+                            </div>
+                            <div class="col-xl-4 col-lg-4 col-md-6 col-sm-12 col-ip my-3">
+                                <div class="col-img"><img src="./assets/img/ip13pink.png" alt=""></div>
+                                <h4 class="col-title">Apple IPhone 13 128GB Pink</h4>
+                                <p>• Дисплей Super Retina XDR • Дисплей OLED, на всю передню панель, діагональ
+                                    6,1 дюйма • 2 532 × 1170 пікселів, 460 пікселів на дюйм • Підтримка HDR •
+                                    Технологія True Tone • Широкий колірний обхват (P3) • Тактильний відгук при
+                                    натисненні
+                                </p>
+                                <div class="catalog_buttons">
+                                    <button type="button" class="catalog_btn btn-bag btn">Додати в кошик</button>
+                                    <button type="button" class="catalog_btn btn">Докладніше</button>
+                                </div>
+                            </div>
+                            <div class="col-xl-4 col-lg-4 col-md-6 col-sm-12 col-ip my-3">
+                                <div class="col-img"><img src="./assets/img/ip13midnight.png" alt=""></div>
+                                <h4 class="col-title">Apple IPhone 13 128GB Midnight</h4>
+                                <p>• Дисплей Super Retina XDR • Дисплей OLED, на всю передню панель, діагональ
+                                    6,1 дюйма • 2 532 × 1170 пікселів, 460 пікселів на дюйм • Підтримка HDR •
+                                    Технологія True Tone • Широкий колірний обхват (P3) • Тактильний відгук при
+                                    натисненні
+                                </p>
+                                <div class="catalog_buttons">
+                                    <button type="button" class="catalog_btn btn-bag btn">Додати в кошик</button>
+                                    <button type="button" class="catalog_btn btn">Докладніше</button>
+                                </div>
+                            </div>
+                            <div class="col-xl-4 col-lg-4 col-md-6 col-sm-12 col-ip my-3">
+                                <div class="col-img">
+                                    <img src="./assets/img/ip13red.png" alt=""></div>
+                                <h4 class="col-title">Apple IPhone 13 128GB Red</h4>
+                                <p>• Дисплей Super Retina XDR • Дисплей OLED, на всю передню панель, діагональ
+                                    6,1 дюйма • 2 532 × 1170 пікселів, 460 пікселів на дюйм • Підтримка HDR •
+                                    Технологія True Tone • Широкий колірний обхват (P3) • Тактильний відгук при
+                                    натисненні
+                                </p>
+                                <div class="catalog_buttons">
+                                    <button type="button" class="catalog_btn btn-bag btn">Додати в кошик</button>
+                                    <button type="button" class="catalog_btn btn">Докладніше</button>
+                                </div>
+                            </div>
+                            <div class="col-xl-4 col-lg-4 col-md-6 col-sm-12 col-ip my-3">
+                                <div class="col-img">
+                                    <img src="./assets/img/ip12black.png" alt=""></div>
+                                <h4 class="col-title">Apple IPhone 12 128GB Black</h4>
+                                <p>• Дисплей Super Retina XDR • Дисплей OLED, на всю передню панель, діагональ
+                                    6,1 дюйма • 2 532 × 1170 пікселів, 460 пікселів на дюйм • Підтримка HDR •
+                                    Технологія True Tone • Широкий колірний обхват (P3) • Тактильний відгук при
+                                    натисненні
+                                </p>
+                                <div class="catalog_buttons">
+                                    <button type="button" class="catalog_btn btn-bag btn">Додати в кошик</button>
+                                    <button type="button" class="catalog_btn btn">Докладніше</button>
+                                </div>
+                            </div>
+                            <div class="col-xl-4 col-lg-4 col-md-6 col-sm-12 col-ip my-3">
+                                <div class="col-img">
+                                    <img src="./assets/img/ip12purple.png" alt=""></div>
+                                <h4 class="col-title">Apple IPhone 12 128GB Purple</h4>
+                                <p>• Дисплей Super Retina XDR • Дисплей OLED, на всю передню панель, діагональ
+                                    6,1 дюйма • 2 532 × 1170 пікселів, 460 пікселів на дюйм • Підтримка HDR •
+                                    Технологія True Tone • Широкий колірний обхват (P3) • Тактильний відгук при
+                                    натисненні
+                                </p>
+                                <div class="catalog_buttons">
+                                    <button type="button" class="catalog_btn btn-bag btn">Додати в кошик</button>
+                                    <button type="button" class="catalog_btn btn">Докладніше</button>
+                                </div>
+                            </div>
+                            <div class="col-xl-4 col-lg-4 col-md-6 col-sm-12 col-ip my-3">
+                                <div class="col-img">
+                                    <img src="./assets/img/ip12green.png" alt=""></div>
+                                <h4 class="col-title">Apple IPhone 12 128GB Green</h4>
+                                <p>• Дисплей Super Retina XDR • Дисплей OLED, на всю передню панель, діагональ
+                                    6,1 дюйма • 2 532 × 1170 пікселів, 460 пікселів на дюйм • Підтримка HDR •
+                                    Технологія True Tone • Широкий колірний обхват (P3) • Тактильний відгук при
+                                    натисненні
+                                </p>
+                                <div class="catalog_buttons">
+                                    <button type="button" class="catalog_btn btn-bag btn">Додати в кошик</button>
+                                    <button type="button" class="catalog_btn btn">Докладніше</button>
+                                </div>
+                            </div>
+                            <div class="col-xl-4 col-lg-4 col-md-6 col-sm-12 col-ip my-3">
+                                <div class="col-img">
+                                    <img src="./assets/img/ip11red.png" alt=""></div>
+                                <h4 class="col-title">Apple IPhone 11 128GB Red</h4>
+                                <p>Дисплей Liquid Retina HD з діагоналлю 6,1 дюйма і технологією IPS —
+                                    ЖК-дисплей Multi-Touch на всю передню панель. — 1792 × 828 пікселів, 326
+                                    пікселів на дюйм — Контрастність 1400: 1 (стандартна) — Технологія True Tone —
+                                    Широкий колірний обхват (P3) — Тактильний відгук при натисненні</p>
+                                <div class="catalog_buttons">
+                                    <button type="button" class="catalog_btn btn-bag btn">Додати в кошик</button>
+                                    <button type="button" class="catalog_btn btn">Докладніше</button>
+                                </div>
+                            </div>
+                            <div class="col-xl-4 col-lg-4 col-md-6 col-sm-12 col-ip my-3">
+                                <div class="col-img">
+                                    <img src="./assets/img/ip11yellow.png" alt=""></div>
+                                <h4 class="col-title">Apple IPhone 11 128GB Yellow</h4>
+                                <p>Дисплей Liquid Retina HD з діагоналлю 6,1 дюйма і технологією IPS —
+                                    ЖК-дисплей Multi-Touch на всю передню панель. — 1792 × 828 пікселів, 326
+                                    пікселів на дюйм — Контрастність 1400: 1 (стандартна) — Технологія True Tone —
+                                    Широкий колірний обхват (P3) — Тактильний відгук при натисненні</p>
+                                <div class="catalog_buttons">
+                                    <button type="button" class="catalog_btn btn-bag btn">Додати в кошик</button>
+                                    <button type="button" class="catalog_btn btn">Докладніше</button>
+                                </div>
+                            </div>
+                            <div class="col-xl-4 col-lg-4 col-md-6 col-sm-12 col-ip my-3">
+                                <div class="col-img"><img src="./assets/img/ip11white.png" alt=""></div>
+                                <h4 class="col-title">Apple IPhone 11 128GB White</h4>
+                                <p>Дисплей Liquid Retina HD з діагоналлю 6,1 дюйма і технологією IPS —
+                                    ЖК-дисплей Multi-Touch на всю передню панель. — 1792 × 828 пікселів, 326
+                                    пікселів на дюйм — Контрастність 1400: 1 (стандартна) — Технологія True Tone —
+                                    Широкий колірний обхват (P3) — Тактильний відгук при натисненні</p>
+                                <div class="catalog_buttons">
+                                    <button type="button" class="catalog_btn btn-bag btn">Додати в кошик</button>
+                                    <button type="button" class="catalog_btn btn">Докладніше</button>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+                     
+        </main>
+        <script src="./assets/js/bootstrap.bundle.min.js"></script>
+    </body>
+</html>

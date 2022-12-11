@@ -1,0 +1,28 @@
+.container {
+    max-width: 1200px;
+}
+.tags-table__item {
+    display: flex;
+    border: 1px solid #ffffff;  
+}
+.item-description,
+.item__title {
+    color: #4E342E;
+    padding: 12px;
+    display: flex;
+    align-items: center;
+    font-size: 18px;
+}
+.item__title {
+    min-height: 90px;
+    max-width: 500px;
+    width: 500px;
+    background-color: #FFC400;
+    justify-content: center;
+}
+.item-description {
+    width: 100%;
+    font-family: 'Dancing Script', cursive;
+    background-color: #40C4FF;
+    border-left: 1px solid #ffffff;
+}

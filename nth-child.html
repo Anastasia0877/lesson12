@@ -1,0 +1,274 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link
+            rel="apple-touch-icon"
+            sizes="180x180"
+            href="./assets/favicon/apple-touch-icon.png">
+        <link
+            rel="icon"
+            type="image/png"
+            sizes="32x32"
+            href="./assets/favicon/favicon-32x32.png">
+        <link
+            rel="icon"
+            type="image/png"
+            sizes="16x16"
+            href="./assets/favicon/favicon-16x16.png">
+        <link rel="manifest" href="/site.webmanifest">
+        <link rel="stylesheet" href="./assets/css/reset.css">
+        <link rel="stylesheet" href="./assets/css/style.css">
+        <title>Home</title>
+    </head>
+    <body>
+        <header>
+            <nav class="site-navigation">
+                <a href="index.html">
+                    <img src="./assets/img/logo.png" alt="LOGO">
+                </a>
+                <ul>
+                    <li>
+                        <a href="index.html">Home</a>
+                    </li>
+                    <li>
+                        <a href="table.html">Table</a>
+                    </li>
+                    <li>
+                        <a href="flexbox.html">Flex-Box</a>
+                    </li>
+                    <li>
+                        <a href="position.html">Position</a>
+                    </li>
+                    <li>
+                        <a href="fonts.html">Fonts</a>
+                    </li>
+                    <li>
+                        <a href="main-tags.html">Main tags</a>
+                    </li>
+                    <li>
+                        <a class="active" href="nth-child.html">Nth-child</a>
+                    </li>
+                    <li>
+                        <a href="bootstrap.html">Bootstrap</a>
+                    </li>
+
+                </ul>
+            </nav>
+        </header>
+        <main>
+            <h1 class="page-title">Nth-child</h1>
+            <section class="example">
+                <div class="container">
+                    <h2 class="example__title">:nth-child(odd)</h2>
+                    <div class="example__list-nth odd">
+                        <div class="example__list-item">1</div>
+                        <div class="example__list-item">2</div>
+                        <div class="example__list-item">3</div>
+                        <div class="example__list-item">4</div>
+                        <div class="example__list-item">5</div>
+                        <div class="example__list-item">6</div>
+                        <div class="example__list-item">7</div>
+                        <div class="example__list-item">8</div>
+                        <div class="example__list-item">9</div>
+                        <div class="example__list-item">10</div>
+                    </div>
+                </div>
+            </section>
+            <section class="example">
+                <div class="container">
+                    <h2 class="example__title">:nth-child(even)</h2>
+                    <div class="example__list-nth even">
+                        <div class="example__list-item">1</div>
+                        <div class="example__list-item">2</div>
+                        <div class="example__list-item">3</div>
+                        <div class="example__list-item">4</div>
+                        <div class="example__list-item">5</div>
+                        <div class="example__list-item">6</div>
+                        <div class="example__list-item">7</div>
+                        <div class="example__list-item">8</div>
+                        <div class="example__list-item">9</div>
+                        <div class="example__list-item">10</div>
+                    </div>
+                </div>
+            </section>
+            <section class="example">
+                <div class="container">
+                    <h2 class="example__title">:first-child</h2>
+                    <div class="example__list-nth first-child">
+                        <div class="example__list-item">1</div>
+                        <div class="example__list-item">2</div>
+                        <div class="example__list-item">3</div>
+                        <div class="example__list-item">4</div>
+                        <div class="example__list-item">5</div>
+                        <div class="example__list-item">6</div>
+                        <div class="example__list-item">7</div>
+                        <div class="example__list-item">8</div>
+                        <div class="example__list-item">9</div>
+                        <div class="example__list-item">10</div>
+                    </div>
+                </div>
+            </section>
+            <section class="example">
+                <div class="container">
+                    <h2 class="example__title">:last-child</h2>
+                    <div class="example__list-nth last-child">
+                        <div class="example__list-item">1</div>
+                        <div class="example__list-item">2</div>
+                        <div class="example__list-item">3</div>
+                        <div class="example__list-item">4</div>
+                        <div class="example__list-item">5</div>
+                        <div class="example__list-item">6</div>
+                        <div class="example__list-item">7</div>
+                        <div class="example__list-item">8</div>
+                        <div class="example__list-item">9</div>
+                        <div class="example__list-item">10</div>
+                    </div>
+                </div>
+            </section>
+            <section class="example">
+                <div class="container">
+                    <h2 class="example__title">:nth-child(8)</h2>
+                    <div class="example__list-nth nth-number">
+                        <div class="example__list-item">1</div>
+                        <div class="example__list-item">2</div>
+                        <div class="example__list-item">3</div>
+                        <div class="example__list-item">4</div>
+                        <div class="example__list-item">5</div>
+                        <div class="example__list-item">6</div>
+                        <div class="example__list-item">7</div>
+                        <div class="example__list-item">8</div>
+                        <div class="example__list-item">9</div>
+                        <div class="example__list-item">10</div>
+                    </div>
+                </div>
+            </section>
+            <section class="example">
+                <div class="container">
+                    <h2 class="example__title">:nth-child(n+6)</h2>
+                    <div class="example__list-nth nth-n-plus">
+                        <div class="example__list-item">1</div>
+                        <div class="example__list-item">2</div>
+                        <div class="example__list-item">3</div>
+                        <div class="example__list-item">4</div>
+                        <div class="example__list-item">5</div>
+                        <div class="example__list-item">6</div>
+                        <div class="example__list-item">7</div>
+                        <div class="example__list-item">8</div>
+                        <div class="example__list-item">9</div>
+                        <div class="example__list-item">10</div>
+                    </div>
+                </div>
+            </section>
+            <section class="example">
+                <div class="container">
+                    <h2 class="example__title">:nth-child(3n+4)</h2>
+                    <div class="example__list-nth nth-number-n-plus">
+                        <div class="example__list-item">1</div>
+                        <div class="example__list-item">2</div>
+                        <div class="example__list-item">3</div>
+                        <div class="example__list-item">4</div>
+                        <div class="example__list-item">5</div>
+                        <div class="example__list-item">6</div>
+                        <div class="example__list-item">7</div>
+                        <div class="example__list-item">8</div>
+                        <div class="example__list-item">9</div>
+                        <div class="example__list-item">10</div>
+                    </div>
+                </div>
+            </section>
+            <section class="example">
+                <div class="container">
+                    <h2 class="example__title">:nth-child(-2n+5)</h2>
+                    <div class="example__list-nth nth-minus-n-plus">
+                        <div class="example__list-item">1</div>
+                        <div class="example__list-item">2</div>
+                        <div class="example__list-item">3</div>
+                        <div class="example__list-item">4</div>
+                        <div class="example__list-item">5</div>
+                        <div class="example__list-item">6</div>
+                        <div class="example__list-item">7</div>
+                        <div class="example__list-item">8</div>
+                        <div class="example__list-item">9</div>
+                        <div class="example__list-item">10</div>
+                    </div>
+                </div>
+            </section>
+            <section class="example">
+                <div class="container">
+                    <h2 class="example__title">:nth-child(2n+2):nth-child(-n+4)</h2>
+                    <div class="example__list-nth diapason">
+                        <div class="example__list-item">1</div>
+                        <div class="example__list-item">2</div>
+                        <div class="example__list-item">3</div>
+                        <div class="example__list-item">4</div>
+                        <div class="example__list-item">5</div>
+                        <div class="example__list-item">6</div>
+                        <div class="example__list-item">7</div>
+                        <div class="example__list-item">8</div>
+                        <div class="example__list-item">9</div>
+                        <div class="example__list-item">10</div>
+                    </div>
+                </div>
+            </section>
+            <div class="container-cards">
+                <div class="row-cards">
+                    <div class="card-nth">
+                        <div class="card-nth-img">
+                            <img src="./assets/img/landing.png"></div>
+                            <div class="card-nth__info">
+                            <h2 class="card-nth__title">LANDING PAGE</h2>
+                            <p class="card-nth__description">Посадочная страница или лэндинг представляет
+                                собой специально спроектированную страницу сайта, которая призвана побуждать
+                                посетителей к совершению определенного действия.</p>
+                        </div>
+                    </div>
+                    <div class="card-nth">
+                        <div class="card-nth-img">
+                            <img src="./assets/img/business-card.png"></div>
+                        <div class="card-nth__info">
+                            <h2 class="card-nth__title">САЙТ-ВИЗИТКА</h2>
+                            <p class="card-nth__description">В наше время наличие собственного
+                                веб-представительства в Интернете является одним из основных способов
+                                продвижения бизнеса. Eсли компания только начинает свое продвижение в Интернете,
+                                то лучшим вариантом будет разработка сайта-визитки.</p>
+                        </div>
+                    </div>
+                    <div class="card-nth">
+                        <div class="card-nth-img">
+                            <img src="./assets/img/promo-site.png"></div>
+                            <div class="card-nth__info">
+                            <h2 class="card-nth__title">ПРОМО-САЙТЫ</h2>
+                            <p class="card-nth__description">Разумеется, любая новинка, будь то товар или
+                                услуга, нуждается в рекламе. Собственно, для продвижения новых предложений и
+                                создают промо-сайты.</p>
+                        </div>
+                    </div>
+                    <div class="card-nth">
+                        <div class="card-nth-img">
+                            <img src="./assets/img/internet-shop.png"></div>
+                            <div class="card-nth__info">
+                            <h2 class="card-nth__title">ИНТЕРНЕТ-МАГАЗИН</h2>
+                            <p class="card-nth__description">Многие компании уже давно используют
+                                интернет-магазины для перевода продаж товаров в онлайн-пространство и получения
+                                прибыли через интернет.</p>
+                        </div>
+                    </div>
+                    <div class="card-nth">
+                        <div class="card-nth-img">
+                            <img src="./assets/img/person-site.png"></div>
+                            <div class="card-nth__info">
+                            <h2 class="card-nth__title">ПЕРСОНАЛЬНЫЙ САЙТ</h2>
+                            <p class="card-nth__description">В отличии от сайтов-визиток и корпоративных
+                                сайтов, персональные страницы являются представительствами не компаний, а
+                                частных лиц.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </main>
+    </body>
+</html>

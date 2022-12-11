@@ -1,0 +1,30 @@
+header{
+    background-color: #a1e1f5;
+}
+.site-navigation{
+    display: flex;
+    padding: 24px 0;
+    max-width: 1419px;
+    margin: 0 auto;
+    justify-content: space-between;
+}
+.site-navigation ul{
+    display: flex;
+    align-items: center;
+    
+}
+.site-navigation ul li{
+    padding:24px; 
+    font-size: 28px;
+}
+.site-navigation ul li a{
+    color:#000;
+    text-decoration: none;
+}
+.site-navigation ul li a:hover{
+    color:rgb(136, 109, 0);
+}
+.site-navigation ul li .active{
+    color: #C83267;
+    border-bottom: 2px solid #000;
+}

@@ -1,0 +1,62 @@
+@import url(faq.css);
+@import url(products.css);
+body {
+    background: #F5F5F5;
+}
+.navbar {
+    background-color: #a1e1f5;
+}
+.logo {
+    padding: 0 24px;
+}
+.page-title,
+.subtitle {
+    padding: 0 12px;
+    max-width: 1419px;
+    margin: 24px auto;
+}
+.page-title {
+    text-align: center;
+    font-size: 60px;
+}
+.subtitle {
+    font-size: 30px;
+}
+.container-alerts,
+.container-button,
+.container-dropdown,
+.container-modal,
+.container-range,
+.container-spinner{
+    max-width: 1200px;
+    margin-left: 10px;
+    margin-right: 10px;
+
+}
+.container-dropdown {
+    display: flex;
+}
+#dropdownMenuLink {
+    margin-left: 20px;
+}
+.container-spinner {
+    margin-bottom: 50px;
+    display: flex;
+    justify-content: space-around;
+}
+.alert:nth-child(even) {
+    background-color: #FFA000;
+    color: #fff;
+}
+.alert:nth-child(odd) {
+    background-color: #0288D1;
+    color: #fff;
+}
+.spinner-border-img {
+    border: none !important;
+}
+
+.img-spinner img {
+    width: 50px;
+    height: 50px;
+}

@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="apple-touch-icon" sizes="180x180" href="./assets/favicon/apple-touch-icon.png">
+        <link rel="icon" type="image/png" sizes="32x32" href="./assets/favicon/favicon-32x32.png">
+        <link rel="icon" type="image/png" sizes="16x16" href="./assets/favicon/favicon-16x16.png">
+        <link rel="stylesheet" href="./assets/css/reset.css">
+        <link rel="stylesheet" href="./assets/css/style.css">
+        <title>FlexBox</title>
+    </head>
+    <body>
+        <header>
+            <nav class="site-navigation">
+                <a href="index.html">
+                    <img src="./assets/img/logo.png" alt="LOGO">
+                </a>
+                <ul>
+                    <li>
+                        <a href="index.html">Home</a>
+                    </li>
+                    <li>
+                        <a href="table.html">Table</a>
+                    </li>
+                    <li>
+                        <a href="flexbox.html" class="active">Flex-Box</a>
+                    </li>
+                    <li><a href="position.html">Position</a></li>
+                    <li>
+                        <a href="fonts.html">Fonts</a>
+                    </li>
+                    <li>
+                        <a href="main-tags.html">Main tags</a>
+                    </li>
+                    <li>
+                        <a href="nth-child.html">Nth-child</a>
+                    </li>
+                    <li>
+                        <a href="bootstrap.html">Bootstrap</a>
+                    </li>
+                </ul>
+            </nav>
+        </header>
+        <main>
+            <section class="one">
+            <h1 class="page-title">Flex-Box</h1>
+            <!-- flex-direction -->
+            <section class="example">
+                <div class="container">
+                    <h2 class="example__title">display:flex; flex-direction: row</h2>
+                    <div class="example__list d-flex">
+                        <div class="example__list-item">1</div>
+                        <div class="example__list-item">2</div>
+                        <div class="example__list-item">3</div>
+                        <div class="example__list-item">4</div>
+                        <div class="example__list-item">5</div>
+                        <div class="example__list-item">6</div>
+                        <div class="example__list-item">7</div>
+                    </div>
+                </div>
+            </section>
+
+            <section class="example">
+                <div class="container">
+                    <h2 class="example__title">display:flex; flex-direction: row-revers</h2>
+                    <div class="example__list d-flex flex-direction-row-revers">
+                        <div class="example__list-item">1</div>
+                        <div class="example__list-item">2</div>
+                        <div class="example__list-item">3</div>
+                        <div class="example__list-item">4</div>
+                        <div class="example__list-item">5</div>
+                        <div class="example__list-item">6</div>
+                        <div class="example__list-item">7</div>
+                    </div>
+                </div>
+            </section>
+
+            <section class="example">
+                <div class="container">
+                    <h2 class="example__title">display:flex; flex-direction: column</h2>
+                    <div class="example__list d-flex flex-direction-column">
+                        <div class="example__list-item">1</div>
+                        <div class="example__list-item">2</div>
+                        <div class="example__list-item">3</div>
+                        <div class="example__list-item">4</div>
+                        <div class="example__list-item">5</div>
+                        <div class="example__list-item">6</div>
+                        <div class="example__list-item">7</div>
+                    </div>
+                </div>
+            </section>
+
+            <section class="example">
+                <div class="container">
+                    <h2 class="example__title">display:flex; flex-direction: column-revers</h2>
+                    <div class="example__list d-flex flex-direction-column-revers">
+                        <div class="example__list-item">1</div>
+                        <div class="example__list-item">2</div>
+                        <div class="example__list-item">3</div>
+                        <div class="example__list-item">4</div>
+                        <div class="example__list-item">5</div>
+                        <div class="example__list-item">6</div>
+                        <div class="example__list-item">7</div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- justify-content -->
+
+            <section class="example">
+                <div class="container">
+                    <h2 class="example__title">justify-content: space-between</h2>
+                    <div class="example__list justify-content">
+                        <div class="example__list-item">1</div>
+                        <div class="example__list-item">2</div>
+                        <div class="example__list-item">3</div>
+                        <div class="example__list-item">4</div>
+                        <div class="example__list-item">5</div>
+                        <div class="example__list-item">6</div>
+                        <div class="example__list-item">7</div>
+                    </div>
+                </div>
+            </section>
+
+            <section class="example">
+                <div class="container">
+                    <h2 class="example__title">justify-content: space-around</h2>
+                    <div class="example__list justify-content space-around">
+                        <div class="example__list-item">1</div>
+                        <div class="example__list-item">2</div>
+                        <div class="example__list-item">3</div>
+                        <div class="example__list-item">4</div>
+                        <div class="example__list-item">5</div>
+                        <div class="example__list-item">6</div>
+                        <div class="example__list-item">7</div>
+                    </div>
+                </div>
+            </section>
+
+            <section class="example">
+                <div class="container">
+                    <h2 class="example__title">justify-content: space-evenly</h2>
+                    <div class="example__list justify-content space-evenly">
+                        <div class="example__list-item">1</div>
+                        <div class="example__list-item">2</div>
+                        <div class="example__list-item">3</div>
+                        <div class="example__list-item">4</div>
+                        <div class="example__list-item">5</div>
+                        <div class="example__list-item">6</div>
+                        <div class="example__list-item">7</div>
+                    </div>
+                </div>
+            </section>
+
+            <section class="example">
+                <div class="container">
+                    <h2 class="example__title">justify-content: stretch</h2>
+                    <div class="example__list justify-content stretch">
+                        <div class="example__list-item">1</div>
+                        <div class="example__list-item">2</div>
+                        <div class="example__list-item">3</div>
+                        <div class="example__list-item">4</div>
+                        <div class="example__list-item">5</div>
+                        <div class="example__list-item">6</div>
+                        <div class="example__list-item">7</div>
+                    </div>
+                </div>
+            </section>
+
+            <section class="example">
+                <div class="container">
+                    <h2 class="example__title">justify-content: center</h2>
+                    <div class="example__list justify-content center">
+                        <div class="example__list-item">1</div>
+                        <div class="example__list-item">2</div>
+                        <div class="example__list-item">3</div>
+                        <div class="example__list-item">4</div>
+                        <div class="example__list-item">5</div>
+                        <div class="example__list-item">6</div>
+                        <div class="example__list-item">7</div>
+                    </div>
+                </div>
+            </section>
+
+            <section class="example">
+                <div class="container">
+                    <h2 class="example__title">justify-content: flex-start</h2>
+                    <div class="example__list justify-content flex-start">
+                        <div class="example__list-item">1</div>
+                        <div class="example__list-item">2</div>
+                        <div class="example__list-item">3</div>
+                        <div class="example__list-item">4</div>
+                        <div class="example__list-item">5</div>
+                        <div class="example__list-item">6</div>
+                        <div class="example__list-item">7</div>
+                    </div>
+                </div>
+            </section>
+
+            <section class="example">
+                <div class="container">
+                    <h2 class="example__title">justify-content: flex-end</h2>
+                    <div class="example__list justify-content flex-end">
+                        <div class="example__list-item">1</div>
+                        <div class="example__list-item">2</div>
+                        <div class="example__list-item">3</div>
+                        <div class="example__list-item">4</div>
+                        <div class="example__list-item">5</div>
+                        <div class="example__list-item">6</div>
+                        <div class="example__list-item">7</div>
+                    </div>
+                </div>
+            </section>
+        </section>
+        </main>
+    </body>
+</html>
