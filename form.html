@@ -20,6 +20,7 @@
             href="./assets/favicon/favicon-16x16.png">
         <link rel="manifest" href="/site.webmanifest">
         <link rel="stylesheet" href="./assets/css/bootstrap.css">
+        <link rel="stylesheet" href="./assets/css/nice-select.css">
         <link rel="stylesheet" href="./assets/css/bootstrap-style.css">
         <title>Bootstrap</title>
     </head>
@@ -182,18 +183,16 @@
 <label for="w3review">Добавьте комментарий:</label>
 <textarea id="w3review" name="w3review" rows="4" cols="50" placeholder="Введите текст..." maxlength="30"></textarea>
 </div>
-
 <!-- select -->
-
 <div class="form-item">
-    <label for="cars">Choose a car:</label>
-
-<select name="cars" id="cars">
-  <option value="volvo">Volvo</option>
-  <option value="saab">Saab</option>
-  <option value="mercedes">Mercedes</option>
-  <option value="audi">Audi</option>
-</select>
+    <label for="cars">Список</label>
+    <select>
+        <option data-display="Выберите из списка">One</option>
+        <option value="1">Two</option>
+        <option value="2">Three</option>
+        <option value="3">Four</option>
+        <option value="4">Five</option>
+      </select>
     </div>
     <!-- color -->
 <div class="form-item">
@@ -269,6 +268,7 @@
         <script src="./assets/js/bootstrap.bundle.min.js"></script>
     <script src="./assets/js/jQuery v3.6.1.js"></script>
     <script src="./assets/js/jquery.mask.min.js"></script>
+    <script src="./assets/js/jquery.nice-select.min.js"></script>
     <script src="./assets/js/script.js"></script>
     </body>
 </html>

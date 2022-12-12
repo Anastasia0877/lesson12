@@ -69,6 +69,9 @@ $('.open-eye').css("display", "block");
 $('.close-eye').css("display", "block");
     }
 });
+$(document).ready(function() {
+	$('select').niceSelect();
+  });
 
 // var openeye = document.getElementsByClassName('.open-eye');
 // var closeneye = document.getElementsByClassName('.close-eye');
