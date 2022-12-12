@@ -95,62 +95,164 @@
             </nav>
         </header>
         <main>
+            <section class="timer-example">
+                <h2>Timer</h2>
+                <div class="timer__container"></div>
+                <div id="timer">
+                    <div id="days"></div>
+                    <div id="hours"></div>
+                    <div id="minutes"></div>
+                    <div id="seconds"></div>
+                  </div>
+            </div>
+        </section>
             <h1 class="page-title">Forms</h1>
-            <div class="forms">
-                <div class="container-first-form">
+            
+            <div class="form-first">
+                <div class="form-first__container">
                     <form>
                         <div class="form-input">
                         <label for="fname">Ваше имя</label>
                         <input type="text" id="fname" name="fname" placeholder="Введите ваше имя">
                         <label for="phone">Ваш номер телефона</label>
-                        <input type="tel" id="phone" name="phone">
+                        <input  type="tel" id="phone" name="phone">
                     </div>
                         <div class="form-btn">
                         <input type="submit" value="Submit">
-                        <input type="button" value="Отправить" onclick="alert('Данные успешно отправлены')">
+                        <input type="button" value="Отправить" id="btn-send" onclick="inputclear()">
                     </div>
                     </form>
                 </div>
             </div>
-            <p>gggggg</p>
-            <p>gggggg</p>
-            <p>gggggg</p>
-            <p>gggggg</p>
-            <p>gggggg</p>
-            <p>gggggg</p>
-            <p>gggggg</p>
-            <p>gggggg</p>
-            <p>gggggg</p>
-            <p>gggggg</p>
-            <p>gggggg</p>
-            <p>gggggg</p>
-            <p>gggggg</p>
-            <p>gggggg</p>
-            <p>gggggg</p>
-            <p>gggggg</p>
-            <p>gggggg</p>
-            <p>gggggg</p>
-            <p>gggggg</p>
-            <p>gggggg</p>
-            <p>gggggg</p>
-            <p>gggggg</p>
-            <p>gggggg</p>
-            <p>gggggg</p>
-            <p>gggggg</p>
-            <p>gggggg</p>
-            <p>gggggg</p>
-            <p>gggggg</p>
-            <p>gggggg</p>
-            <p>gggggg</p>
-            <p>gggggg</p>
-            <p>gggggg</p>
-            <p>gggggg</p>
-            <p>gggggg</p>
-            <p>gggggg</p>
-            <p>gggggg</p>
-
-
+<div class="form-second">
+ <div class="form-second__container">
+        <form>      
+    <!-- email -->
+<div class="form-item item-input">
+    <label for="email">Введите email:</label>
+    <input type="email" id="email" name="email">
+</div>
+    <!-- Password -->
+<div class="form-item item-input">
+    <label for="pwd">Password:</label>
+    <input type="password" id="pwd" name="pwd">
+</div>
+    <!-- RadioButton -->
+    <div class="radiobutton">
+<div class="form-item item-radio-check">
+  <div><input type="radio" id="html" name="fav_language" value="HTML">
+  <label for="html">HTML</label></div>
+  <div><input type="radio" id="css" name="fav_language" value="CSS">
+  <label for="css">CSS</label></div>
+  <div><input type="radio" id="javascript" name="fav_language" value="JavaScript">
+  <label for="javascript">JavaScript</label></div>
+</div>
+<div class="form-item item-radio-check">
+    <div><input type="radio" id="c-plus" name="programming-lang" value="C++">
+    <label for="html">C++</label></div>
+    <div><input type="radio" id="java" name="programming-lang" value="Java">
+    <label for="css">Java</label></div>
+    <div><input type="radio" id="python" name="programming-lang" value="Python">
+    <label for="javascript">Python</label></div>
+</div>
+</div>
+    <!-- checkBox -->
+    <div class="checkBox">
+<div class="form-item item-radio-check">
+  <div><input type="checkbox" id="vehicle1" name="vehicle1" value="Bike">
+  <label for="vehicle1"> I have a bike</label></div>
+  <div><input type="checkbox" id="vehicle2" name="vehicle2" value="Car">
+  <label for="vehicle2"> I have a car</label></div>
+  <div><input type="checkbox" id="vehicle3" name="vehicle3" value="Boat">
+  <label for="vehicle3"> I have a boat</label></div>
+</div>
+<div class="form-item item-radio-check">
+    <div><input type="checkbox" id="vehicle4" name="vehicle4" value="Green">
+    <label for="vehicle1"> Green</label></div>
+    <div><input type="checkbox" id="vehicle5" name="vehicle5" value="Red">
+    <label for="vehicle2"> Red</label></div>
+    <div><input type="checkbox" id="vehicle6" name="vehicle6" value="Yellow">
+    <label for="vehicle3"> Yellow</label></div>
+</div>
+</div>
+<div class="form-item">
+<label for="w3review">Добавьте комментарий:</label>
+<textarea id="w3review" name="w3review" rows="4" cols="50" placeholder="Введите текст..." maxlength="30"></textarea>
+</div>
+    <!-- color -->
+<div class="form-item">
+  <label for="favcolor">Выберите цвет:</label>
+  <input type="color" id="favcolor" name="favcolor">
+</div>
+    <!-- date -->
+<div class="form-item">
+  <label for="birthday">Выберите дату:</label>
+  <input type="date" id="birthday" name="birthday">
+</div>
+    <!-- DateTime -->
+<div class="form-item">
+  <label for="birthdaytime">Выберите дату и время:</label>
+  <input type="datetime-local" id="birthdaytime" name="birthdaytime">
+</div>
+    <!-- file -->
+<div class="form-item">
+  <label for="myfile">Выберите файл:</label>
+  <input type="file" id="myfile" name="myfile">
+</div>
+    <!-- MonthYear -->
+<div class="form-item">
+    <label for="bdaymonth">Выберите месяц и год:</label>
+    <input type="month" id="bdaymonth" name="bdaymonth">
+</div>
+    <!-- numbers -->
+<div class="form-item">
+    <label for="quantity">Введите число 0т 1 до 20:</label>
+    <input type="number" id="quantity" name="quantity" min="1" max="20">
+</div>
+    <!-- number+step -->
+<div class="form-item">
+    <label for="quantity">Введите число от 1 до 100, кратное 10:</label>
+    <input type="number" id="quantity" name="quantity" min="0" max="100" step="10" value="30">
+</div>
+    <!-- range -->
+<div class="form-item">
+    <label for="vol">Range:</label>
+    <input type="range" id="vol" name="vol" min="0" max="50">
+</div>
+  <!--Search -->
+<div class="form-item">
+    <label for="gsearch">Поиск:</label>
+    <input type="search" id="gsearch" name="gsearch">
+</div>
+ <!-- Time -->
+<div class="form-item">
+    <label for="appt">Введите время:</label>
+    <input type="time" id="appt" name="appt">
+</div>
+    <!-- url -->
+<div class="form-item">
+    <label for="homepage">Введите URL-адрес:</label>
+    <input type="url" id="homepage" name="homepage">
+</div>
+    <!-- Weeks -->
+<div class="form-item">
+    <label for="week">выберите неделю:</label>
+    <input type="week" id="week" name="week">
+</div>
+ 
+    <div class="form-btn">
+        <input type="submit" value="Submit">
+        <input type="button" value="Отправить" id="btn-send" onclick="inputclear()">
+        <input type="reset">
+    </div>
+</form>
+</div>
+</div>
+        
         </main>
         <script src="./assets/js/bootstrap.bundle.min.js"></script>
+    <script src="./assets/js/jQuery v3.6.1.js"></script>
+    <script src="./assets/js/jquery.mask.min.js"></script>
+    <script src="./assets/js/script.js"></script>
     </body>
 </html>

@@ -1,15 +1,68 @@
-.container-first-form form{
+
+.timer-example{
+    margin-bottom: 20px;
+    padding: 24px;
+
+}
+
+.timer__container{
+    max-width: 600px;
+    margin: 0 auto;
+}
+.timer-example h2{
+    text-align: center;
+    color: #a44d7d;
+    margin-bottom: 20px;
+}
+#timer{
+    display: flex;
+   justify-content: center;
+}
+#timer div {
+    display: flex;
+    align-items: center;
+    line-height: 1;
+     padding: 20px;
+    font-size: 30px;
+    border: 1px solid #4FC3F7;
+    background-color: #fff;
+    border-radius: 20px;
+    margin-right: 10px;
+    width: 200px;
+    height: 100px;
+    text-align: center;
+  }
+  span {
+    padding-left: 5px;
+    font-size: 10px;
+    color: rgb(117, 117, 117);
+  } 
+  #days{
+    color: #F4511E;
+    
+  }
+  #hours{
+    color: #2E7D32;
+  }
+  #minutes{
+    color: #5E35B1;
+  }
+  #seconds{
+    color: #8D6E63;
+  }
+  
+
+.form-first__container form{
     max-width: 400px;
     display: flex;
     flex-direction: column;
-    /* background-color: #fff; */
     padding: 50px;
     border-radius: 30px;
     margin: 0 auto;
     background:url('../img/parallax.png') ;
     background-attachment: fixed;
 }
-.container-first-form form label{
+.form-first__container form label{
     font-size: 12px;
     margin-bottom: 10px;
     color: #fff;
@@ -31,7 +84,7 @@
     box-shadow: 0 0 10px #fff;
     border-radius: 10px;
 }
-.container-first-form input{
+.form-first__container input{
     border: none;
     border-bottom: 1px solid #fff;
 }
@@ -40,7 +93,8 @@
     flex-direction: row;
     justify-content: space-evenly;
 }
-.form-btn input{
+.form-btn input,
+.form-second__container .form-btn input{
     background-color: #343D5E;
     color: #fff;
     border:none;
@@ -63,5 +117,53 @@
 .form-btn input:focus{
     box-shadow: 0 0 10px #000;
     transition: 0.5s ease-in;
+}
+
+.form-second__container form{
+    max-width: 600px;
+    display: flex;
+    flex-direction: column;
+    padding: 50px;
+    border-radius: 30px;
+    margin: 50px auto;
+    color: #fff;
+    /* background-color: #fff; */
+    background:url('../img/parallax.png') ;
+    background-attachment: fixed;
+}
+.form-second__container form label{
+    margin-bottom: 10px;
+}
+.form-second__container form input{
+    border: none;
+    background: none;
+    border-bottom: 1px solid #fff;
+    color: #fff;
+}
+.form-second__container form input:focus-visible{
+    border: 1px solid #fff;
+    box-shadow: 0 0 15px #fff;
+    background: none;
+}
+.form-item{
+    margin-bottom: 20px;
+}
+.item-input{
+    display: flex;
+    flex-direction: column;
+}
+
+.checkBox,
+.radiobutton{
+    max-width: 300px;
+    display: flex;
+   justify-content: space-between;
+}
+#w3review{
+    max-height: 100px;
+}
+.form-item{
+    display: flex;
+    flex-direction: column;
 }
 
