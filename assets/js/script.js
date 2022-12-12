@@ -43,3 +43,32 @@ button.addEventListener("click", function () {
     input2.value = "";
     alert('Данные успешно отправлены');
 });
+
+
+$('.open-eye').on('click',function(){
+    if($('#pwd[type=password]').length){
+$('#pwd').attr("type","text");
+$('.open-eye').css("display", "none");
+$('.close-eye').css("display", "block");
+    }
+    else{
+        $('#pwd').attr("type","password");
+        $('.open-eye').css("display", "block");
+$('.close-eye').css("display", "none");
+    }
+});
+$('.close-eye').on('click',function(){
+    if($('#pwd[type=text]').length){
+$('#pwd').attr("type","password");
+$('.close-eye').css("display", "none");
+$('.open-eye').css("display", "block");
+    }
+    else{
+        $('#pwd').attr("type","text");
+        $('.open-eye').css("display", "none");
+$('.close-eye').css("display", "block");
+    }
+});
+
+// var openeye = document.getElementsByClassName('.open-eye');
+// var closeneye = document.getElementsByClassName('.close-eye');
